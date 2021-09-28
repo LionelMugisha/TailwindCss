@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .bor-blog{
+        @apply border-2 h-72 w-64 rounded-lg  bg-gray-300
+    }
+    .blog-name{
+        @apply text-2xl text-gray-700 mt-2 text-center
+    }
+    .blog-img{
+        @apply rounded-full mx-auto
+    }
+    .blog-txt{
+        @apply mt-2 ml-6 text-base text-center
+    }
+    .txt{
+        @apply text-gray-700
+    }
+    .blog-btn{
+        @apply justify-center mt-6 h-8
+    }
+    .btn{
+        @apply content-center text-gray-700 text-lg bg-red-200 border-4 border-pink-200
+    }
+    .blog-header{
+        @apply text-2xl text-blue-700 text-center italic
+    }
+}
